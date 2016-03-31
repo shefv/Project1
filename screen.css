@@ -1,5 +1,48 @@
-
-label, input
-{	
-display: block;
+body{
+	background-color: #add8e6;
+	font-family: "Palantino Linotype", "Book Antiqua", Palantino, monospace;
 }
+h1, h3{
+	text-align: center;
+	font-family: inherit;
+}
+#greeting{
+	display:block;
+	font-size: .75em;
+	text-align: center;
+}
+p{
+	font-size: .75em;
+	text-align: center;
+}
+figure img{
+	width: 100%;
+	height: auto;
+}
+label{	
+display: block;
+text-align: center;
+}
+input
+{
+display: block;
+border-radius: 10px;
+width: 90%;
+height: 1.5em;
+margin: 1em;
+}
+
+@media screen and (min-width: 350px){
+	input{
+		height: 1.75em
+	}
+}
+
+@media screen and (min-width: 500px){
+	input{
+		width: 75%;
+		height: 2em;
+		margin: .5em 3em .5em 5em;
+	}
+}
+
